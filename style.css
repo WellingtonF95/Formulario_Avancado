@@ -278,3 +278,17 @@ fieldset legend {
 .checkbox-wrapper input:focus + label::before {
   outline: 2px solid black;
 }
+
+.input-align {
+  display: flex;
+  gap: 32px;
+}
+
+.input-align .input-wrapper {
+  width: 100%;
+}
+
+
+
+
+
