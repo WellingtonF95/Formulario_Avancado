@@ -32,8 +32,10 @@
 
     <form id="my-form">
 
-        <fieldset>
+      <div class="wrapper">
 
+        <fieldset>
+  
           <div class="group-input-wrapper">
             
             <div class="input-wrapper">
@@ -58,20 +60,63 @@
             <input type="email"  id="event-email"/>
   
           </div>
-
+  
         </fieldset>
-
-
+  
+  
         <fieldset>
-
+  
           <div class="fieldset-wrapper">
+
             <legend>Informações do Mentor</legend>
 
+            <div class="input-wrapper">
+
+              <label for="event-mentor">Selecione quem foi o seu mentor</label>
+
+              <select id="">
+                <option value="">Mayk</option>
+                <option value="">Rodrigo</option>
+              </select>
+
+            </div>
+
+            <div class="input-wrapper">
+
+              <label for="event-feedback">Feedback sobre o mentor</label>
+
+              <textarea id="event-feedback" ></textarea>
+
+            </div>
+
+            <div class="checkbox-wrapper">
+
+              <input type="checkbox" id="event-doubt">
+              <label for="event-doubt">Todas as minhas dúvidas foram esclarecidas durante a mentoria.</label>
+
+
+            </div>
+  
+  
+  
+          </div>
+  
+        </fieldset>
+
+      </div>
+  
+        <fieldset>
+          <div class="fieldset-wrapper">
+
+            
+
+            <legend>Agendando Próxima Mentoria</legend>
 
 
           </div>
-
         </fieldset>
+
+
 
 
     </form>
