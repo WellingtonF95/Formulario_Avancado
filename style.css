@@ -26,7 +26,7 @@ body::before {
 }
 
 
-h1, legend {
+h1, legend, button {
   font-family: 'Staatliches', cursive;
 }
 
@@ -112,15 +112,16 @@ form {
 
   display: flex;
   flex-direction: column;
-  gap: 36px;
+  gap: 64px;
   
 }
 
 .wrapper {
   display: flex;
   flex-direction: column;
-  gap: 32px;
+  gap: 33px;
 }
+
 
 fieldset {
   border: 0;
@@ -139,7 +140,7 @@ fieldset {
   justify-content: center;
 }
 
-.fieldset-wrapper .input-wrapper {
+.input-wrapper {
   display: flex;
   flex-direction: column;
   gap: 8px;
@@ -281,12 +282,45 @@ fieldset legend {
 
 .input-align {
   display: flex;
+  justify-content: space-between;
   gap: 32px;
 }
 
-.input-align .input-wrapper {
-  width: 100%;
+.input-align > div:nth-child(1) {
+  width: 300px;
 }
+
+.time-wrapper {
+  display: flex;
+  gap: 10px;
+}
+
+.time-wrapper input {
+  width: 140px;
+}
+
+button {
+  padding: 15px 40px;
+
+  background: #F67669;
+  border-radius: 8px;
+  border: none;
+
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 26px;
+  
+  color: #FFFFFF;
+
+}
+
+button:hover {
+  background: #e66a5c;
+}
+
+
+
+
 
 
 
